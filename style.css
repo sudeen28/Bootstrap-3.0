@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "epilogue", sans-serif;
+}
+body{
+    max-width: 1440px
+}
+:root{
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+}
+p{
+    font-size: 18px;
+}
+
+.carousel, .carousel-item, .carousel-inner{
+    display:block;
+    margin:auto;
+    width:38rem ;
+    height:25rem;
+    border-top-right-radius:30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-radius: 50%;
+}
+.nav-btn:focus, .btn-close, .accordion-item, .accordion-button{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.accordion-button{
+    background-color: white !important;
+}
+.nav-item-mobile{
+    margin-left: 1.28rem;
+}
+.remote{
+    margin-top: 3%;
+    font-weight:bolder;
+    text-align: center;
+    font-size: 38px;
+    color: var(--Almost-Black);
+
+}
+.team{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5% 4% 0% 4%;
+    color: var(--Medium-Gray);
+}
+.learn-more{
+    margin-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+.text-center{
+    margin-top: 3%;
+}
+.images{
+    width: 300px;
+    height: 15px;
+    margin: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.make{
+    font-size: 80px;
+    margin: 7% 0% 0% 10%;
+    color: var(--Almost-Black);
+ }
+.make-2{
+    font-size: 70px;
+    margin:0% 0% 0% 10%;
+    color: var(--Almost-Black);
+}
+.remote-1{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 19%;
+    margin-top: 15%;
+}
+.remote-2{
+    font-size: 60px;
+    font-weight:bolder;
+    margin-left: 19%;
+}
+.team-3{
+    margin-left: 19%;
+}
+.button{
+    width: 400px;
+    margin-left: 19%;
+}
+
+
+
+/*  
+-position- relative, fixed, absolute, sticky
+-float- float-right, float-left
+-background- background-image, background-position,
+background-repeat
+-z-index
+-css grid
+-transition and transform properties
+-css-animation properties @keyframes
+*/
