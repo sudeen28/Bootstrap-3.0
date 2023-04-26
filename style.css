@@ -83,17 +83,6 @@ p{
     margin:0% 0% 0% 10%;
     color: var(--Almost-Black);
 }
-.remote-1{
-    font-size: 60px;
-    font-weight: bolder;
-    margin-left: 19%;
-    margin-top: 15%;
-}
-.remote-2{
-    font-size: 60px;
-    font-weight:bolder;
-    margin-left: 19%;
-}
 .team-3{
     margin-left: 19%;
 }
@@ -101,6 +90,44 @@ p{
     width: 400px;
     margin-left: 19%;
 }
+.image-hero-desktop{
+    width: 38%;
+}
+.hero-content{
+    width: 35;
+}
+.hero-content1 h1{
+    font-size: 4.5em;
+    font-weight: 700;
+    margin-top: 5.8rem;
+}
+.hero{
+    width: 76%;
+    margin-top: 4rem;
+}
+.cto-btn:hover{
+    background-color: var(--Almost-White) !important;
+    color: var(--Almost-Black) !important;
+}
+
+@media (max-width: 768px) {
+    .hero{
+        width: 100%;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .hero-content1 h1{
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+    .brands img{
+        width: 68%;
+    }
+    
+}
+
 
 
 
